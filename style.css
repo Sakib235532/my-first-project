@@ -1,7 +1,21 @@
+
+
+
+.my-font{
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}
+
 body{
     background-color: #f5f8ff;
     margin:  auto;
-    
+    font-family: sans-serif;
+    font-weight: 400;
 }
 button{
     border: none;
@@ -10,6 +24,7 @@ button:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(238, 123, 8);
     transition: 0.5s;
+    box-shadow: 5px 5px 1px rgb(217, 213, 213);
 }
 /* primary class*/
 
@@ -157,6 +172,7 @@ nav{
     font-size: 10px;
     margin: 5px;
     color: grey;
+    padding: 0px 20px 0px 0px;
 }
 .card-img-set{
     display: flex;
@@ -174,6 +190,13 @@ nav{
 }
 .card-img1{
     border-radius: 50%;
+    height: 30px;
+    margin-top: 5px;
+}
+.card:hover{
+    box-shadow: 8px 5px 2px rgb(238, 238, 238);
+    background-color: rgb(227, 239, 255);
+    transition: 0.5s;
 }
 /*-----focus section----*/
 .fc-main{
@@ -235,7 +258,7 @@ nav{
     border-radius: 5px;
 }
 .in-item2{
-    height: 60px;
+    height: 80px;
     border: none;
     width: 255px;
     border-radius: 5px;
@@ -247,6 +270,9 @@ nav{
 }
 a{
     text-decoration: none;
+}
+textarea{
+    resize: none;
 }
 /*-------foooter section*/
 
