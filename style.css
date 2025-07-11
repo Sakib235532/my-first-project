@@ -1,8 +1,116 @@
+body{
+    background-color: #f5f8ff;
+    margin:  auto;
+}
 
 /* primary class*/
+
 .primary-btn{
-    color: #4E47FF;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
 }
 .logo{
     color: #4e47ff;
+    font-size: 50px;
+}
+/* nav section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-main{
+    background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+    text-align: center;
+    
+}
+.baner h1{
+    font-size: 40px;
+}
+.btn2{
+    padding: 10px 15px;
+}
+/*------action section-----*/
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+.ac-head p{
+    font-size: 14 px;
+    color:gray ;
+}
+.btn3{
+    padding: 10px 20px;
+}
+.ac-img{
+    height: 170px;
+    width: 180px;
+    border-radius: 20%;
+}
+/*----follower section----*/
+.follower{
+    background-color: #e5e7ff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 30px;
+}
+.user-main{
+    display: flex;
+    justify-content: space-around;
+}
+.user h1{
+    color: #4E47FF;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.user p{
+    font-size: 12px;
+    color: grey;
+}/*-----card section-----*/
+.card-main h1{
+    text-align: center;
+    margin: 45px 0px;
+    
+    font-size: 30px;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 5px;
+}
+.card-inner{
+    display: flex;
+    justify-content: space-around;
+}
+.star1{
+    height: 10px;
+}
+.card h4{
+    font-size: 18px;
+}
+.card p{
+    font-size: 10px;
+    color: grey;
+}
+.card-img-set{
+    display: flex;
+}
+.com-dit h5{
+    margin: 5px;
+    padding: 0px;
+    color: rgb(43, 41, 41);
+    font-weight: 100;
+}
+.com-dit p{
+    margin: 5px;
+    padding: 0px;
+    color: grey;
+}
+.card-img1{
+    border-radius: 50%;
 }
